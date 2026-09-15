@@ -6,7 +6,7 @@ Algoritmo DescuentoEspecial
 	
 	montoFinal = montoCompra;
 	
-	si montoCompra > 100 Entonces
+	si montoCompra > 190 Entonces
 		descuento = montoCompra * 0.10;
 		montoFinal = montoCompra - descuento;
 		Escribir  "¡Felicidades! Ha recicibido un descuento de: $", descuento;
