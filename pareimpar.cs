@@ -1,3 +1,4 @@
+public class Helloword {
 public static void Main(string[] args) {
     Console.Write("ingrese un numero:");
     int numero = Convert.ToInt32(Console.ReadLine());
@@ -5,10 +6,11 @@ public static void Main(string[] args) {
     if (numero % 2 == 0) { 
     
         Console.WriteLine("El numero es par.");
-    }
+    
     else
     {
 
         Console.WriteLine("el numero es impar.");
     }
-  }
+    }
+}
