@@ -22,7 +22,7 @@ public class helloworld
             }
 
         } while (clave != passCorrecta );
-        Console.WriteLine(" Acceso concedido");
+        Console.WriteLine($"\n Acceso concedido");
         Console.WriteLine($"intentos fallidos: {intentosFallido}");
 
     }
